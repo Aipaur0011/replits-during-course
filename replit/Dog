@@ -1,0 +1,84 @@
+package replit;
+/*Create a Class Main
+        In this class, you should specify the following attributes:
+        breed, name, color, and following behaviors: bark(), run(), play().
+        Create 3 different objects of it: Husky, Bulldog, Labrador with specific attributes and behaviors.
+        The output of the program should be as following:
+        ```
+        Husky can bark
+        Husky can run```
+        Husky can play``
+        Bulldog can bark```
+        Bulldog can run```
+        Bulldog can play```
+        Labrador can bark```
+        Labrador can run```
+        Labrador can play
+        `*/
+
+public class Replit88 {
+    String breed;
+    String name;
+    String color;
+
+
+    void bark(){
+        System.out.println("can bark");
+    }
+
+    void run(){
+        System.out.println("can run");
+    }
+
+    void play(){
+        System.out.println("cun play");
+    }
+
+}
+
+public class Task88 {
+    public static void main(String[]args){
+
+        Dog Mickey=new Dog();
+        Mickey.name="Mickey";
+        Mickey.breed="Husky";
+        Mickey.color="BlackAndWhite";
+
+        System.out.print(Mickey.breed+" ");
+        Mickey.bark();
+        System.out.print(Mickey.breed+" ");
+        Mickey.run();
+        System.out.print(Mickey.breed+" ");
+        Mickey.play();
+
+        Dog BoBo=new Dog();
+        BoBo.name="BoBo";
+        BoBo.breed="Bulldog";
+        BoBo.color="Black";
+
+
+        System.out.print(BoBo.breed+" ");
+        BoBo.bark();
+        System.out.print(BoBo.breed+" ");
+        BoBo.run();
+        System.out.print(BoBo.breed+" ");
+        BoBo.play();
+
+        Dog Lucky=new Dog();
+        Lucky.name="Lucky";
+        Lucky.breed="Labrador";
+        Lucky.color="Brown";
+
+
+        System.out.print(Lucky.breed+" ");
+        Lucky.bark();
+        System.out.print(Lucky.breed+" ");
+        Lucky.run();
+        System.out.print(Lucky.breed+" ");
+        Lucky.play();
+
+    }
+}
+
+
+}
